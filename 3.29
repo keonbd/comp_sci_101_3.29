@@ -1,0 +1,15 @@
+''' Type your code here. '''
+inp = int(input())
+lista = [inp]
+for inp in range(lista[0]):
+    inp = int(input())
+    lista.append(inp)
+listc = lista
+#print(listc)
+thresh = int(input())
+#lista.append(thresh)
+#listb.pop[-1]
+#leg = len(lista())
+for i in listc:
+    if i <= thresh and i != lista[0]:
+        print(i,end=',')
